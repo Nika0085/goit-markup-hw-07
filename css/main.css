@@ -76,48 +76,10 @@ img {
   margin: 0 auto;
 }
 
-.container--join {
-  width: 200px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30.52px;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  display: flex;
-  padding-top: 0px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  align-items: start;
-  flex-wrap: wrap;
-  margin-left: 50px;
-}
-
-.container--footer {
+.footer__info {
   min-width: 280px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30.52px;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  display: flex;
-  padding-top: 0px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  align-items: start;
-  flex-basis: calc((100% - 90px) / 2);
-  width: 1200px;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.container--footer__form {
-  margin-top: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 600px;
-  align-items: start;
-  margin-left: 120px;
-  font-size: 14px;
+  padding-top: 60px;
+  margin-left: 70px;
 }
 
 .container--checkbox {
@@ -135,6 +97,58 @@ img {
   width: 1200px;
   align-items: center;
   margin: 0 auto;
+}
+
+.footer .container {
+  min-width: 280px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  display: flex;
+  padding-top: 0px;
+  margin-left: 60px;
+  align-items: start;
+  flex-basis: calc((100% - 90px) / 2);
+}
+
+.container-footer-form {
+  width: 900px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.footer__forms {
+  margin-top: 141px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  align-items: start;
+  margin-left: 120px;
+  font-size: 14px;
+}
+
+.footer__join {
+  width: 200px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  display: flex;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-left: 50px;
 }
 
 .section {
@@ -355,7 +369,7 @@ img {
 }
 
 .menu__item {
-  max-width: 200px;
+  max-width: 300px;
   margin-left: 0px;
   margin-right: 15px;
   display: flex;
@@ -420,11 +434,7 @@ img {
   display: flex;
   align-items: center;
   height: 80px;
-}
-
-.navigation__list-item:not(:last-child) {
-  margin-right: 46px;
-  color: var(--blue-color);
+  text-decoration: none;
 }
 
 .navigation__link {
@@ -435,13 +445,26 @@ img {
   font-weight: 500;
   font-size: 14px;
   color: var(--black-color);
+  margin-right: 20px;
 }
 .navigation__link:hover, .navigation__link:focus {
   color: var(--blue-color);
 }
 
-.navigation__link-active {
-  color: var(--blue-color);
+.navigation__link--active {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.navigation__link--active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 4px solid var(--blue-color);
+  border-radius: 2px;
+  width: 100%;
+  bottom: -33px;
+  left: 0;
 }
 
 .contact {
@@ -491,7 +514,20 @@ img {
   width: auto;
 }
 
-.icon {
+.menu-2__link {
+  color: var(--text-grey);
+  margin-left: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu-2__link:hover, .menu-2__link:focus, .menu-2__link:active {
+  color: var(--blue);
+}
+.menu-2__link:hover svg, .menu-2__link:focus svg, .menu-2__link:active svg {
+  fill: var(--blue);
+}
+
+.contact__icon {
   height: 12px;
   width: 21px;
   color: var(--contact-color);
@@ -683,24 +719,8 @@ img {
   background-position: center center;
 }
 
-.active {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.active::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-top: 4px solid var(--blue-color);
-  border-radius: 2px;
-  width: 100%;
-  bottom: -33px;
-  left: 0;
-}
-
 .join-us {
-  margin-top: 15px;
+  margin-top: 141px;
   display: flex;
   flex-wrap: wrap;
   min-width: 200px;
@@ -760,17 +780,13 @@ img {
   height: 80px;
 }
 
-.header ul {
-  list-style-type: none;
-}
-
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/team.jpg);
   background-size: cover;
   background-position: center;
   max-height: 600px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0;
   padding-top: 0;
 }
 
@@ -780,7 +796,6 @@ img {
   line-height: 1.36;
   font-weight: 900;
   letter-spacing: 0.06em;
-  flex-wrap: wrap;
   max-width: 696px;
   text-align: center;
   margin-top: 200px;
@@ -963,6 +978,7 @@ img {
 
 .footer {
   background-color: var(--footer-color);
+  display: flex;
 }
 
 .footer__form {

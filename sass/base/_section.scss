@@ -1,0 +1,41 @@
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section--hero {
+  padding-top: 70px;
+}
+
+.section--about-us {
+  background-color: var(--white-color);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.16;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+}
+
+.section--team {
+  background-color: var(--grey-color);
+  font-weight: 700;
+}
+
+.section--services {
+  background-color: var(--white-color);
+  padding: 0px;
+  height: 20%;
+  margin-bottom: 30px;
+}
+
+.section--gallery {
+  background-color: var(--white-color);
+  padding: 0px;
+  display: flex;
+}

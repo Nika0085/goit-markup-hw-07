@@ -1019,9 +1019,11 @@ img {
 
 .services__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 0px;
   padding-top: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .services__list:not(:first-child) {
   margin-left: 8px;

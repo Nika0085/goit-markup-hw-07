@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__link {
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--contact-color);
+
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
+}
+
+.contact__place {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  width: auto;
+  color: var(--white-color);
+  font-family: var(--main-font);
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.footer .contact {
+  font-style: normal;
+  margin-top: 20px;
+  min-width: 280px;
+}
+
+.footer .contact__link {
+  &:last-child {
+    margin-right: auto;
+    margin-bottom: 60px; 
+  }
+  &:not(:last-child) {
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: auto; 
+  }
+}
+
+
+
+
+
+
+
+

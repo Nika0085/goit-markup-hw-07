@@ -1,0 +1,158 @@
+.icon {
+  height: 12px;
+  width: 21px;
+  color: var(--contact-color);
+  fill: var(--contact-color);
+  padding-right: 5px;
+}
+
+.icons__list {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--grey-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  fill: var(--dark-grey-color);
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.icons__list-item {
+  height: 70px;
+  width: 70px;
+}
+
+.team__icons {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  fill: var(--dark-grey-color);
+  margin-top: 20px;
+}
+
+.team__icons-item {
+  flex-basis: calc((100% - 90px) / 4);
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: var(--blue-color);
+    fill: var(--white-color);
+    cursor: pointer; 
+  }
+}
+
+.icons {
+  display: flex;
+  padding: 0;
+  padding-top: 94px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icons li {
+  
+  &:not(:last-child) {
+  margin-right: 20px;
+  }
+}
+
+.icons__graphics {
+  width: 70px;
+  height: 70px;
+  flex-basis: calc((100% - 90px) / 4);
+  display: flex;
+}
+
+.clients__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  margin-right: 0;
+  width: 80px;
+  height: 90px;
+}
+
+.footer--icons__list {
+  width: 200px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  fill: var(--white-color);
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.footer--icons__item {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-top: 10px;
+}
+
+.footer--icons__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin-left: 0px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-color);
+
+  &:hover {
+    background-color: var(--blue-color);
+  }
+}
+
+.footer--icons {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+  display: flex;
+  justify-content: center;
+}
+
+.icon__form {
+  width: 12px;
+  height: 12px;
+  fill: var(--black-color);
+  position: absolute;
+  left: 52px;
+}
+
+.icon__form--avatar {
+  width: 12px;
+  height: 12px;
+  top: 132px;
+}
+
+.icon__form--phone {
+  height: 13px;
+  width: 13px;
+  top: 200px;
+}
+
+.icon__form--envelope {
+  width: 15px;
+  height: 12px;
+  top: 268px;
+}
+
+.x {
+  width:50px;
+  height: 50px;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+}

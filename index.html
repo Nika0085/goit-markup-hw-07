@@ -21,23 +21,23 @@
                     <h3><a href="index.html" class="logo no-decoration"><span class="logo--first">Web</span>Studio</a></h3>
                     <nav class="navigation">  
                     <ul class="navigation__list no-decoration">
-                        <li class="navigation__list-item"><a href="index.html" class="active navigation__link">Agencja</a></li>
+                        <li class="navigation__list-item"><a href="index.html" class="navigation__link navigation__link--active">Agencja</a></li>
                         <li class="navigation__list-item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
                         <li class="navigation__list-item"><a href="Kontakt" class="navigation__link">Kontakt</a></li></ul></nav>
                     <ul class="menu no-decoration">
                         <li class="menu__item"><a href="mailto:info@devstudio.com" class="contact__link">
-                            <svg class="icon">
+                            <svg class="contact__icon">
                                 <use href="./images/icons.svg#icon-envelope"></use>
                             </svg>info@devstudio.com</a></li> 
                         <li class="menu__item--2"><a href="tel:+48111111111" class="contact__link">
-                            <svg class="icon">
+                            <svg class="contact__icon">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>+48 111 111 111</a></li>
                     </ul>
                 </div>
         </header> 
         <main>
-            <section class="section--hero">
+            <section class="section section--hero">
                 <article class="hero">
                     <div class="container--hero">
                 <h1 class="hero__banner">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
@@ -45,7 +45,7 @@
                     </div>
                 </article>
             </section> 
-            <section class="section--lorem">
+            <section class="section section--lorem">
                 <div class="container">
                     <ul class="icons no-decoration">
                         <li class="icons__list">
@@ -85,7 +85,8 @@
                     </ul>
                 </div>
             </section>
-            <section class="section--about-us">
+            <div class="container">
+            <section class="section section--about-us">
                 <div class="container"><h2 class="about-us__item">Czym się zajmujemy</h2>
                     <ul class="about-us__gallery no-decoration">
                         
@@ -112,7 +113,8 @@
                     </ul>
                 </div>
             </section>
-            <section class="section--team">
+        </div>
+            <section class="section section--team">
                 <div class="container">
                 <h2 class="team__banner">Nasz zespół</h2>
                     <ul class="team__gallery no-decoration">
@@ -243,7 +245,7 @@
                     </ul> 
                 </div>
             </section>
-            <section class="clients">
+            <section class="section section--clients">
                 <div class="container--clients">
                     <h2 class="clients__banner">Nasi klienci</h2>
                     <ul class="clients__gallery no-decoration">
@@ -282,8 +284,8 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="container--footer">
-                <div class="container--footer">
+            <div class="container">
+                <div class="footer__info">
                     <address class="contact">
                         <a href="index.html" class="logo no-decoration"><span class="logo--first">Web</span><span class="logo--second">Studio</span></a>
                             <p class="contact__place">m. Warszawa, aleje Jerozolimskie 21</p>
@@ -291,7 +293,7 @@
                         <a href="tel:+48111111111" class="contact__link"> +48 111 111 111 </a>
                     </address>
                 </div>
-            <div class="container--join">
+            <div class="footer__join">
                 <h3 class="join-us">DOŁĄCZ DO NAS</h3>
                     <ul class="footer--icons__list no-decoration">
                         <li class="footer--icons__item">
@@ -324,7 +326,7 @@
                         </li>
                     </ul>
             </div>
-            <div class="container--footer__form">
+            <div class="footer__forms">
                 <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
                     <div class="footer__form">
                         <form name="newsletter"

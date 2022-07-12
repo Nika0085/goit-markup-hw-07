@@ -1,75 +1,73 @@
 .contact {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact__link {
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-  text-decoration: none;
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--contact-color);
-
-  &:hover,
-  &:focus {
-    color: var(--blue-color);
+    display: flex;
+    flex-direction: column;
   }
-}
-
-.contact__place {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  font-style: normal;
-  width: auto;
-  color: var(--white-color);
-  font-family: var(--main-font);
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: auto;
-}
-
-.footer .contact {
-  font-style: normal;
-  margin-top: 20px;
-  min-width: 280px;
-}
-
-.footer .contact__link {
-  &:last-child {
-    margin-right: auto;
-    margin-bottom: 60px; 
+  
+  .contact__link {
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--contact-color);
+  
+    &:hover,
+    &:focus {
+      color: var(--blue-color);
+    }
   }
-  &:not(:last-child) {
+  
+  .contact__place {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    width: auto;
+    color: var(--white-color);
+    font-family: var(--main-font);
     margin-right: auto;
     margin-bottom: 10px;
-    width: auto; 
+    width: auto;
   }
-}
-
-
-
-
-.menu-2__link {
-  color: var(--text-grey);
-  margin-left: 50px;
-  text-decoration: none;
-  cursor: pointer;
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: var(--blue);
+  
+  .footer__contact {
+    font-style: normal;
+    margin-top: 20px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
   }
-  &:hover svg,
-  &:focus svg,
-  &:active svg {
-    fill: var(--blue);
+  
+  .footer .contact__link {
+    &:last-child {
+      margin-right: auto;
+      margin-bottom: 60px; 
+    }
+    &:not(:last-child) {
+      margin-right: auto;
+      margin-bottom: 10px;
+      width: auto; 
+    }
   }
-}
-
-
-
-
+  
+  
+  
+  
+  .menu-2__link {
+    color: var(--text-grey);
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+  
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--blue);
+    }
+    &:hover svg,
+    &:focus svg,
+    &:active svg {
+      fill: var(--blue);
+    }
+  }

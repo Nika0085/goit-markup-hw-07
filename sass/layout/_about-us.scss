@@ -1,30 +1,31 @@
 .about-us__item {
-  flex-basis: calc((100% - 90px) / 4);
-  padding-bottom: 50px;
-  font-size: 36px;
-
-  &:not(:first-child) {
-    margin-left: 30px;
+    display: flex;
+    padding-bottom: 50px;
+    font-size: 36px;
+    justify-content: center;
+  
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
   }
-}
-
-.about-us__gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.about-us__gallery-item {
-  flex-basis: calc((100% - 60px) / 3);
-  padding: 0px;
-  width: 370px;
-  height: 294px;
-}
-
-.about-us__gallery-description {
-  position: relative;
-  margin: 10px;
-  overflow: hidden;
-  background-color: var(--white-color);
-  box-shadow: var(--footer-color);
-}
+  
+  .about-us__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .about-us__gallery-item {
+    flex-basis: calc((100% - 60px) / 3);
+    padding: 0px;
+    width: 370px;
+    height: 294px;
+  }
+  
+  .about-us__gallery-description {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    background-color: var(--white-color);
+    box-shadow: var(--footer-color);
+  }

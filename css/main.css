@@ -948,10 +948,18 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/team.jpg);
   background-size: cover;
   background-position: center;
-  max-height: 600px;
   max-width: 1600px;
-  margin: 0;
-  padding-top: 0;
+  max-height: 600px;
+  margin: auto;
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero__banner {
@@ -962,7 +970,7 @@ img {
   letter-spacing: 0.06em;
   max-width: 696px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 0px;
   text-transform: uppercase;
 }
 

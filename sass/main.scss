@@ -1,31 +1,29 @@
-@import "./utils/visually-hidden";
-@import "./utils/variables";
-
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
 
-@import "./components/modal";
-@import "./components/modal-form";
-@import "./components/modal-btn";
-@import "./components/menu";
-@import "./components/logo";
-@import "./components/navigation";
+@import "./components/backdrop";
+@import "./components/chechbox";
 @import "./components/contact";
 @import "./components/icons";
-@import "./components/backdrop";
-@import "./components/checkbox";
 @import "./components/join";
+@import "./components/logo";
+@import "./components/menu";
+@import "./components/modal-btn";
+@import "./components/modal-form";
+@import "./components/modal";
+@import "./components/navigation";
 @import "./components/overlay";
 
-
+@import "./layout/about-us";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/gallery";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/lorem";
-@import "./layout/about-us";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-
 @import "./layout/services";
-@import "./layout/gallery";
+@import "./layout/team";
+
+@import "./utils/variables";
+@import "./utils/visually-hidden";

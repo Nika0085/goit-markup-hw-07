@@ -1,6 +1,6 @@
 .services__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 0px;
     padding-top: 40px;
     margin-left: 250px;
@@ -11,6 +11,13 @@
     }
   }
   
+  .services__list-item {
+    margin-right: 30px;
+
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
   .services__list-button {
     font-size: 16px;
     text-align: center;

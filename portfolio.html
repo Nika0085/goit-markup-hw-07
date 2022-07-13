@@ -17,7 +17,7 @@
     </head>
     <body>
         <header class="header"> 
-            <div class="container--header">
+            <div class="container container--header">
                 <h3><a href="index.html" class="logo list--no-decoration"><span class="logo--first">Web</span>Studio</a></h3>
                 <nav class="navigation">  
                 <ul class="navigation__list list--no-decoration">
@@ -35,21 +35,21 @@
                         </svg>+48 111 111 111</a></li>
                 </ul>
             </div>
-    </header>    
+    </header>      
         <main>
             <section class="section__services">
-                <div class="container">
+                <div class="container--services">
                     <ul class="services__list list--no-decoration">
-                        <li><button class="services__list-button" type="button">Wszystkie</button></li>
-                        <li><button class="services__list-button" type="button">Strony</button></li>
-                        <li><button class="services__list-button" type="button">Aplikacje</button></li>
-                        <li><button class="services__list-button" type="button">Dizajn</button></li>
-                        <li><button class="services__list-button" type="button">Marketing</button></li>
+                        <li class="services__list-item"><button class="services__list-button" type="button">Wszystkie</button></li>
+                        <li class="services__list-item"><button class="services__list-button" type="button">Strony</button></li>
+                        <li class="services__list-item"><button class="services__list-button" type="button">Aplikacje</button></li>
+                        <li class="services__list-item"><button class="services__list-button" type="button">Dizajn</button></li>
+                        <li class="services__list-item"><button class="services__list-button" type="button">Marketing</button></li>
                     </ul>
                 </div>
             </section>
             <section class="section__gallery">
-                <div class="container--gallery">
+                <div class="container">
                     <ul class="gallery__list list--no-decoration">
                         <li class="gallery__item">
                             <figure class="gallery__picture">
@@ -192,7 +192,7 @@
         </main>
         <footer class="footer">
             <div class="container container--footer">
-                <div class="container footer__info">
+                <div class="container--footer__info">
                     <address class="footer__contact">
                         <a href="index.html" class="logo list--no-decoration"><span class="logo--first">Web</span><span class="logo--second">Studio</span></a>
                             <p class="contact__place">m. Warszawa, aleje Jerozolimskie 21</p>
@@ -200,7 +200,7 @@
                         <a href="tel:+48111111111" class="contact__link"> +48 111 111 111 </a>
                     </address>
                 </div>
-            <div class="container footer__join">
+            <div class="container--footer__join">
                 <h3 class="join-us">DOŁĄCZ DO NAS</h3>
                     <ul class="footer--icons__list list--no-decoration">
                         <li class="footer--icons__item">
@@ -233,7 +233,7 @@
                         </li>
                     </ul>
             </div>
-            <div class="container footer__forms">
+            <div class="container--footer__forms">
                 <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
                     <div class="footer__form">
                         <form name="newsletter"

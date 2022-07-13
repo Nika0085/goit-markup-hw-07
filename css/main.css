@@ -29,7 +29,6 @@ img {
 
 .container {
   width: 1200px;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -41,6 +40,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container--clients {
@@ -51,7 +51,6 @@ img {
 .container--footer__info {
   min-width: 280px;
   padding-top: 60px;
-  margin-left: 110px;
 }
 
 .container--checkbox {
@@ -74,7 +73,6 @@ img {
   letter-spacing: 0.03em;
   color: #fff;
   display: flex;
-  margin-left: 0px;
   align-items: start;
   flex-basis: calc((100% - 90px) / 3);
 }
@@ -93,11 +91,11 @@ img {
 }
 
 .container--footer__forms {
-  margin-top: 140px;
+  margin-top: 143px;
   display: flex;
   flex-wrap: wrap;
   align-items: start;
-  margin-left: 50px;
+  margin-left: 60px;
   font-size: 14px;
 }
 
@@ -413,7 +411,7 @@ img {
 }
 
 .join-us {
-  margin-top: 80px;
+  margin-top: 83px;
   display: flex;
   flex-wrap: wrap;
   min-width: 200px;

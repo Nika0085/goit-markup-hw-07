@@ -35,27 +35,20 @@ img {
 
 .container--header {
   display: flex;
-  align-items: center;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .container--hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .container--clients {
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 1200px;
-  align-items: center;
-  margin: 0 auto;
 }
 
-.footer__info {
+.container--footer__info {
   min-width: 280px;
   padding-top: 60px;
   margin-left: 110px;
@@ -71,22 +64,19 @@ img {
 }
 
 .container--gallery {
-  width: 1200px;
-  align-items: center;
-  margin: 0 auto;
+  display: flex;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 .container--footer {
-  width: 100%;
   font-weight: 700;
   line-height: 30.52px;
   letter-spacing: 0.03em;
   color: #fff;
   display: flex;
-  padding-top: 0px;
   margin-left: 0px;
   align-items: start;
-  flex-basis: calc((100% - 90px) / 2);
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 .container-footer-form {
@@ -102,7 +92,7 @@ img {
   margin-left: 70px;
 }
 
-.footer__forms {
+.container--footer__forms {
   margin-top: 140px;
   display: flex;
   flex-wrap: wrap;
@@ -111,7 +101,7 @@ img {
   font-size: 14px;
 }
 
-.footer__join {
+.container--footer__join {
   font-weight: 700;
   font-size: 26px;
   line-height: 30.52px;
@@ -490,7 +480,7 @@ img {
   color: var(--blue-color);
 }
 .menu__item:last-of-type {
-  margin-right: 15px;
+  margin-right: 0px;
 }
 
 .modal-form button {
@@ -822,7 +812,6 @@ img {
   flex-basis: calc((100% - 90px) / 2);
   min-width: 600px;
   justify-content: left;
-  margin-right: 50px;
   margin-top: 20px;
 }
 
@@ -1027,7 +1016,7 @@ img {
 
 .services__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 0px;
   padding-top: 40px;
   margin-left: 250px;
@@ -1035,6 +1024,13 @@ img {
 }
 .services__list:not(:first-child) {
   margin-left: 8px;
+}
+
+.services__list-item {
+  margin-right: 30px;
+}
+.services__list-item:last-of-type {
+  margin-right: 0px;
 }
 
 .services__list-button {
